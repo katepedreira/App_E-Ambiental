@@ -1,6 +1,6 @@
 
 import { StyleSheet } from 'react-native';
-import Navigator from './src/view/components/navigator';
+import Navigator from './src/components/navigator';
 
 
 export default function App() {
