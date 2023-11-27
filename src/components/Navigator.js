@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import WelcomeScreenView from '../view/WelcomeScreenView/WelcomoeScreenView';
 import LoginView from '../view/LoginView/LoginView';
-
+import TipoResiduoView from '../view/TipoResiduoView/TipoResiduoView';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +14,7 @@ const Navigator = () => {
       <Stack.Navigator initialRouteName="Welcome">
         <Stack.Screen name="Welcome" component={WelcomeScreenView} />
         <Stack.Screen name="Login" component={LoginView} />
+        <Stack.Screen name="TipoResiduo" component={TipoResiduoView}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
