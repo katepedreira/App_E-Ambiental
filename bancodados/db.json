@@ -1,0 +1,40 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "admin",
+      "email": "admin@admin.com",
+      "senha": "admin",
+      "cep": "36037850",
+      "endereco": "Rua Sebastião Fernandes Coelho",
+      "bairro": "São Pedro",
+      "cidade": "Juiz de Fora - MG",
+      "numero": 150,
+      "perfil": "ADMIN"
+    },
+    {
+      "nome": "ian",
+      "email": "ian@ian.com",
+      "senha": "ian",
+      "cep": "36015460",
+      "endereco": "Rua Marechal Deodoro",
+      "bairro": "Centro",
+      "numero": "1019",
+      "cidade": "Juiz de Fora - MG",
+      "perfil": "CLIENTE",
+      "id": 2
+    },
+    {
+      "nome": "cliente",
+      "email": "cliente@cliente.com",
+      "senha": "cliente",
+      "cep": "36015210",
+      "endereco": "Travessa Engenheiro Luiz Fernandes Pinto",
+      "bairro": "Jardim Glória",
+      "numero": "1001",
+      "cidade": "Juiz de Fora - MG",
+      "perfil": "CLIENTE",
+      "id": 3
+    }
+  ]
+}
