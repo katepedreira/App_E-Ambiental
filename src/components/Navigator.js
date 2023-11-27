@@ -6,7 +6,6 @@ import WelcomeScreenView from '../view/WelcomeScreenView/WelcomoeScreenView';
 import LoginView from '../view/LoginView/LoginView';
 
 
-
 const Stack = createNativeStackNavigator();
 
 const Navigator = () => {
